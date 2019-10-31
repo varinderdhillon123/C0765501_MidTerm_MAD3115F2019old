@@ -31,6 +31,9 @@ class LoginViewController: UIViewController {
         }else{
             print("Invalid email and password")
         }
+        let storybrd = UIStoryboard(name: "Main", bundle: nil)
+        let CustVC = storybrd.instantiateViewController(withIdentifier: "CustVC") as! CustomerListTableViewController
+        navigationController?.pushViewController(CustVC, animated: true)
     }
     
     

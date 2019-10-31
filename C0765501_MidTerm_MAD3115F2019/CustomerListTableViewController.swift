@@ -9,7 +9,19 @@
 import UIKit
 
 class CustomerListTableViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var newcust: UIBarButtonItem!
+    
+    
+    
+    @IBAction func custnew(_ sender: UIBarButtonItem)
+    {
+        let storybrd1 = UIStoryboard(name: "Main", bundle: nil)
+        let NewVC = storybrd1.instantiateViewController(withIdentifier: "NewVC") as! NewCustomerViewController
+        navigationController?.pushViewController(NewVC, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
