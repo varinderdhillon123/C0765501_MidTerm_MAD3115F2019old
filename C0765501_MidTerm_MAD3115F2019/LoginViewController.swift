@@ -14,7 +14,8 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var txtpassword: UITextField!
     
-   
+    @IBOutlet weak var switchbtn: UISwitch!
+    
     @IBAction func login(_ sender: Any) {
         let Emailid = txtemail.text!
         let password = txtpassword.text!
@@ -38,6 +39,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     
 }
 
