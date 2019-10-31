@@ -66,10 +66,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="email" destination="aPr-Tp-tMd" id="7hd-ca-euw"/>
-                        <outlet property="label" destination="582-Ju-FNR" id="wPz-dv-oDE"/>
-                        <outlet property="rememberbtn" destination="582-Ju-FNR" id="cno-cc-Idf"/>
-                        <outlet property="switch" destination="iHG-WU-K8Y" id="elQ-fU-0kA"/>
                         <outlet property="txtemail" destination="aPr-Tp-tMd" id="rk8-D7-OtJ"/>
                         <outlet property="txtpassword" destination="F6R-gM-Pkw" id="Q5K-LH-Glj"/>
                     </connections>
